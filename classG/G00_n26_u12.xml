@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<TPPInPutXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="GTPPXMLInPut.xsd">
+
+  <instanceName>G00_n26_u12</instanceName>
+
+  <Comment>Problem instance cor MVTPP</Comment>
+
+  <nNodes>14</nNodes>
+
+  <nUsers>12</nUsers>
+
+  <nodesMatrixCost>0 59 129 58 51 98 46 61 118 87 102 109 104 77 59 0 176 90 97 95 89 114 147 143 153 157 108 133 129 176 0 88 80 127 150 130 60 122 29 20 116 66 58 90 88 0 21 58 98 98 61 112 69 70 57 66 51 97 80 21 0 79 85 79 70 91 56 60 78 46 98 95 127 58 79 0 144 151 74 169 118 115 15 124 46 89 150 98 85 144 0 32 154 62 121 130 149 86 61 114 130 98 79 151 32 0 146 30 101 111 154 64 118 147 60 61 70 74 154 146 0 150 65 57 61 91 87 143 122 112 91 169 62 30 150 0 95 106 169 60 102 153 29 69 56 118 121 101 65 95 0 11 110 37 109 157 20 70 60 115 130 111 57 106 11 0 106 48 104 108 116 57 78 15 149 154 61 169 110 106 0 120 77 133 66 66 46 124 86 64 91 60 37 48 120 0</nodesMatrixCost>
+
+  <usersMatrixCost>191 38 91 158 108 113 141 88 21 41 42 107 196 160 91 108 152 63 80 101 174 145 134 160 185 83 36 115 111 30 84 48 93 57 48 116 165 81 18 93 95 17 63 31 95 70 55 101 239 111 92 172 160 85 142 102 109 55 68 163 103 50 66 82 19 97 81 54 70 100 79 20 88 77 62 50 23 87 54 50 97 116 95 32 227 145 88 144 164 59 111 100 153 109 107 170 77 107 76 22 49 93 42 68 127 141 119 57 171 133 64 84 123 40 53 73 149 125 111 131 182 140 71 95 133 44 64 81 155 127 115 141 241 120 93 171 164 81 139 104 121 67 77 169 137 107 43 53 86 40 20 45 125 114 96 94</usersMatrixCost>
+
+  <availabilityMatrix>false true false false false false false false true true true false false false false false false false false false false false false false false false false false false false false false false false false false false false true false false true false true false false false false false false false false false false false false false false false false false false false false true false false false false false false true false false false false false false false false false false false false false false false false false false false false false false false false true false false true false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false true false false false false false</availabilityMatrix>
+
+  <nodesCoords>4294967263 33 4294967243 88 83 4294967272 24 41 17 21 42 96 4294967231 0 4294967249 4294967270 85 36 4294967261 4294967242 54 4294967275 64 4294967279 55 89 17 4294967271</nodesCoords>
+
+  <usersCoords>4294967197 4294967199 4294967237 50 0 14 4294967279 4294967230 4294967227 4294967277 31 12 5 4294967255 4294967284 10 4294967232 70 4294967284 85 4294967278 64 4294967219 4294967280</usersCoords>
+
+</TPPInPutXML>
