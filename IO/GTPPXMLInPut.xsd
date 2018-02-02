@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+
+
+    <xsd:simpleType name="CostMatrixType">
+        <xsd:list itemType="xsd:unsignedInt"/>
+    </xsd:simpleType>
+
+    <xsd:simpleType name="availabilityMatrixType">
+        <xsd:list itemType="xsd:boolean"/>
+    </xsd:simpleType>
+
+    <xsd:complexType name="GTPPXMLInPut_t">
+        <xsd:sequence>
+            <xsd:element name="instanceName" type="xsd:string"></xsd:element>
+            <xsd:element name="Comment" type="xsd:string"></xsd:element>
+            <xsd:element name="nNodes" type="xsd:unsignedInt"></xsd:element>
+            <xsd:element name="nUsers" type="xsd:unsignedInt"></xsd:element>
+            <xsd:element name="nodesMatrixCost" type="CostMatrixType"></xsd:element>
+            <xsd:element name="usersMatrixCost" type="CostMatrixType" ></xsd:element>
+            <xsd:element name="availabilityMatrix" type="availabilityMatrixType"></xsd:element>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:element name="GTPPXMLInPut" type="GTPPXMLInPut_t"></xsd:element>
+    <xsd:element name="vehicleCapacity" type="xsd:unsignedInt"></xsd:element>
+</xsd:schema>
